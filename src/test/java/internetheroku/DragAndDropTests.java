@@ -1,4 +1,4 @@
-package the.internet.herokuapp.com;
+package internetheroku;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.AfterEach;
@@ -9,9 +9,9 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.DragAndDropOptions.to;
 import static com.codeborne.selenide.Selenide.*;
 
-// ======================================
-//TESTS FOR https://github.com/enterprise
-// ======================================
+// =========================================================
+//TESTS FOR https://the-internet.herokuapp.com/drag_and_drop
+// =========================================================
 
 public class DragAndDropTests {
 
